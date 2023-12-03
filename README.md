@@ -1,3 +1,4 @@
 # Apuroop_Portfolio
 
-![Demo](./demo.gif)
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
