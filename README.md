@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Apuroop Kotha</h1>
-<h3 align="center">A Data Enthusiast, skilled in Data analytics, Data Engineering, Data Visualisation</h3>
+<h3 align="center">"Passionate and results-driven Data Professional with a unique blend of skills in Data Engineering, Analysis, and Visualization. Transforming raw data into actionable insights and driving strategic decision-making through robust engineering, meticulous analysis, and compelling visualizations. Dedicated to creating data-driven solutions that empower organizations to thrive in the ever-evolving landscape of data and analytics."</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=apuroopkotha2&label=Profile%20views&color=0e75b6&style=flat" alt="apuroopkotha2" /> </p>
 
