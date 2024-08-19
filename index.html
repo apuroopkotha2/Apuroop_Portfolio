@@ -1,126 +1,720 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apuroop Kotha | Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #007bff;
-            font-size: 1.2em;
-        }
-        .section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-        .section h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        .section p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .projects img {
-            width: 300px;
-            margin: 10px;
-            border-radius: 5px;
-            transition: transform 0.3s;
-        }
-        .projects img:hover {
-            transform: scale(1.05);
-        }
-        footer {
-            background-color: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-        }
-        footer p {
-            margin: 0;
-        }
-        .contact-icons {
-            margin-top: 20px;
-        }
-        .contact-icons a {
-            color: #007bff;
-            margin: 0 10px;
-            font-size: 2em;
-            text-decoration: none;
-        }
-    </style>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Apuroop-Kotha-Portfolio</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
 
-<header>
-    <h1>Your Name</h1>
-    <p>Data Analyst | Data Scientist | Bioinformatics</p>
-</header>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-<nav>
-    <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-</nav>
+      <nav id="nav-wrap">
 
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>Welcome to my portfolio! I am a passionate Data Analyst and Scientist with experience in data collection, analysis, and visualization. I have a strong background in bioinformatics and artificial intelligence, and I enjoy applying these skills to solve complex problems in healthcare and other fields.</p>
-</section>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-<section id="projects" class="section projects">
-    <h2>Projects</h2>
-    <p>Here are some of my recent projects:</p>
-    <div>
-        <img src="project1.jpg" alt="Project 1">
-        <img src="project2.jpg" alt="Project 2">
-        <img src="project3.jpg" alt="Project 3">
-    </div>
-</section>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
 
-<section id="resume" class="section">
-    <h2>Resume</h2>
-    <p>You can view or download my resume below:</p>
-    <a href="resume.pdf" target="_blank" class="btn">Download Resume</a>
-</section>
+      </nav> <!-- end #nav-wrap -->
 
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>If you would like to get in touch, feel free to reach out through the following channels:</p>
-    <div class="contact-icons">
-        <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-</section>
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I am Apuroop Kotha.</h1>
+            <h3><h3>I’m a Data Scientist with over 4 years of experience in data analytics, machine learning, and AI. I specialize in Python, Cloud Infrastructure, and Data Science, developing systems that enhance product categorization and accuracy. My work has impacted over 2 million users by delivering scalable, data-driven solutions across diverse industries. Let's <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.</h3> 
+            <hr />
+            <ul class="social">
+               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+               <li><a href="https://github.com/apuroopkotha2"><i class="fa fa-github"></i></a></li>
+               <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+               <li><a href="https://www.linkedin.com/in/apuroop-kotha-191b12148/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="mailto:apuroopkotha2@gmail.com"><i class="fa fa-envelope"></i></a></li>
+               <li><a href="https://public.tableau.com/app/profile/kotha.apuroop8386"><i class="fa fa-tableau"></i></a></li>
+               <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+            </ul>
+         </div>
+      </div>
 
-<footer>
-    <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-</footer>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profile-pic.png" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a Data Scientist with over 4 years of experience in data analytics, machine learning, and artificial intelligence, 
+                specializing in delivering data-driven insights and solutions across diverse industries. Proficient in Python, R, SQL, 
+                and various data science frameworks, with hands-on expertise in deploying scalable cloud infrastructure and ETL processes 
+                using AWS and GCP.
+            </p>
+            <p>
+                Demonstrated excellence in applying advanced machine learning models, including Radial Basis Neural Networks and 
+                NLP techniques, to enhance product categorization and accuracy. Skilled in creating visually compelling data 
+                visualizations using Tableau and Power BI, effectively communicating complex findings to stakeholders. 
+            </p>
+            <p>
+                A collaborative professional with a proven track record in cross-functional teamwork, driving innovation in AI products, 
+                and optimizing data workflows.
+            </p>
+
+            <div class="row">
+
+               <div class="columns download">
+                  
+                  <button class="button"
+                     onclick="window.open('./images/Apuroop_Kotha_Resume.pdf')"
+                     > <i class="fa fa-download"></i> Download Resume
+                  </button>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Northeastern University, Boston, MA</h3>
+                  <p class="info">Master in Data Analytics, Concentration - Machine Learning<span>&bull;</span> <em class="date">September 2022 - May 2024</em></p>
+
+                  <p>
+                     <b>Graduate Coursework:</b> Data Science, Data Analytics, Database Management, AI Systems Technology, 
+                        Artificial Intelligence, Decision Support, Business Intelligence, Risk Management.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Sathyabama University, India</h3>
+                  <p class="info">B.Tech in Engineering <span>&bull;</span> <em class="date">June 2016 - May 2020</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Bond.AI</h3>
+                  <p class="info">Data Scientist Intern | Arkansas, United States <span>&bull;</span> <em class="date">June 2024 - August 2024</em></p>
+
+                  <p>
+                    During my internship at Bond.AI, I collected, cleaned, and analyzed large datasets using machine learning and 
+                    statistical techniques to uncover actionable insights. I created data visualizations in Tableau that effectively 
+                    communicated complex findings to key stakeholders. Additionally, I collaborated closely with cross-functional teams, 
+                    including software engineers and business analysts, to integrate data-driven solutions into AI products. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Latentview Analytics</h3>
+                  <p class="info">Data Scientist | India <span>&bull;</span> <em class="date">September 2021 - July 2022</em></p>
+
+                  <p>
+                    At Latent View Analytics, I implemented a Radial Basis Neural Network (RBNN) for product categorization, 
+                    enhanced by advanced clustering and training datasets. I utilized AWS to deploy scalable cloud infrastructure and 
+                    optimized ETL processes, significantly improving data workflows. My work in data extraction from Hadoop databases 
+                    using SQL in Hive and Presto led to a 30% reduction in processing time. I also developed visually compelling 
+                    dashboards in Tableau, increasing data accessibility by 80%.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+                <div class="twelve columns">
+ 
+                   <h3>Latentview Analytics</h3>
+                   <p class="info">Data Analyst | India <span>&bull;</span> <em class="date">September 2020 - July 2021</em></p>
+ 
+                   <p>
+                    In my role as a Data Analyst, I applied machine learning and NLP techniques to improve product classification accuracy 
+                    from 60% to 95%. I evaluated models using key statistical metrics and utilized Power BI for data storage and visualization, 
+                    making insights more accessible to stakeholders. I also developed Python scripts for efficient client account mapping, 
+                    ensuring accurate model validation and data engineering practices.
+                   </p>
+ 
+                </div>
+ 
+             </div> <!-- item end -->
+
+             <div class="row item">
+
+                <div class="twelve columns">
+ 
+                   <h3>Mahsa University</h3>
+                   <p class="info">Biomedical Sciences Data Analyst Mobility Program | Malaysia <span>&bull;</span> <em class="date">April 2019 - September 2019</em></p>
+ 
+                   <p>
+                    Applied data analytics to biomedical sciences, using QlikView and Python to analyze patient data and improve healthcare outcomes. 
+                    Engaged in multidisciplinary collaboration, contributing to personalized medicine research by interpreting patient records and diagnostic tests.
+                   </p>
+ 
+                </div>
+ 
+             </div> <!-- item end -->
+
+             <div class="row item">
+
+                <div class="twelve columns">
+ 
+                   <h3>Virchow Biotech</h3>
+                   <p class="info">Biotech Manufacturing and Data Analytics Intern | India <span>&bull;</span> <em class="date">April 2018 - September 2018</em></p>
+ 
+                   <p>
+                    Automated data collection from multiple sources using Python scripts and integrated data into centralized databases via SQL 
+                    and ETL processes. Applied statistical methods to identify trends and patterns contributing to data-driven insights in biotech manufacturing.
+                   </p>
+ 
+                </div>
+ 
+             </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+
+            </p>
+         
+         </div> <!-- main-col end -->
+
+         <div class="bars">
+            
+            <div class ="container">
+               <h6>Programming Languages and Frameworks</h6>
+               <ul class="skills">
+                  <li><span class="bar-expand Python"></span><em>Python - 100%</em></li>
+                  <li><span class="bar-expand R programming"></span><em>R - 80%</em></li>
+                  <li><span class="bar-expand Apache Spark"></span><em>Spark - 80%</em></li>
+                  <li><span class="bar-expand Apache Hadoop"></span><em>Hadoop - 85%</em></li>
+                  <li><span class="bar-expand PyTorch"></span><em>Pytorch - 70%</em></li>
+                  <li><span class="bar-expand Google Cloud Platform"></span><em>GCP - 80%</em></li>
+               </ul>
+            </div>
+            <div class ="container">
+               <h6>Databases</h6>
+               <ul class="skills">
+                  <li><span class="bar-expand Oracle"></span><em>Oracle - 90%</em></li>
+                  <li><span class="bar-expand SQL"></span><em>SQL Server - 100%</em></li>
+                  <li><span class="bar-expand MySQL"></span><em>MySQL - 90%</em></li>
+                  <li><span class="bar-expand SQLite"></span><em>SQLite - 80%</em></li>
+                  <li><span class="bar-expand Snowflake"></span><em>Snowflake - 80%</em></li>
+                  <li><span class="bar-expand MongoDB"></span><em>MongoDB - 70%</em></li>
+               </ul>
+            </div>
+            <div class ="container">
+               <h6>Cloud Services and Deployement</h6>
+               <ul class="skills">
+                  <li><span class="bar-expand AWS"></span><em>AWS - 50%</em></li>
+                  <li><span class="bar-expand GitHub"></span><em>GitHub - 90%</em></li>
+                  <li><span class="bar-expand Docker"></span><em>Docker - 50%</em></li>
+               </ul>
+            </div>
+            <div class ="container">
+                <h6>Visualization Tools</h6>
+                <ul class="skills">
+                   <li><span class="bar-expand Tableau"></span><em>Tableau - 100%</em></li>
+                   <li><span class="bar-expand PowerBI"></span><em>PowerBI - 90%</em></li>
+                   <li><span class="bar-expand Seaborn"></span><em>Seaborn - 90%</em></li>
+                   <li><span class="bar-expand Plotly"></span><em>Plotly - 90%</em></li>
+                </ul>
+             </div>
+            <!-- <div class="uk-margin">Python - 100%<progress class="uk-progress" value="100" max="100"></progress></div> -->
+
+         </div><!-- end skill-bars -->
+         
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Projects.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/bookstore.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Online Bookstore</h5>
+                              <p>E-commerce website</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/houseprice.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>House Price Predictions</h5>
+                              <p>Advanced Regression Techniques</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/text.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Text to SQL Generator</h5>
+                              <p>Large Language Model</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/airport.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Airport Management System</h5>
+                              <p>Web application and Database design</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/shared-file.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Shared File Transfer Network</h5>
+                              <p>File sharing application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/RMI.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Distributed String Array with Concurrency Control Using Java RMI</h5>
+                              <p>Distributed Systems</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/scalation.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>ScalaTion Project</h5>
+                              <p>Machine Learning</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!-- <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Retrocam</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-bookstore.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Online Bookstore</h4>
+			      <p>Designed and developed an e-commerce website to support filtering, searching, pagination with the help of Django Framework.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Python, Django, HTML, CSS, Javascript</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Prudhvi-Chekka/Online_Bookstore" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-houseprice.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>House Price Prediction</h4>
+			      <p>▪ Led comprehensive Exploratory Data Analysis (EDA) to unveil patterns and outliers on 79 feature variables.
+                  <br>▪ Executed meticulous data preprocessing to handle missing values, categorical variables by employing data imputation,
+                     normalization, and one-hot encoding, ensuring a clean and optimized dataset for advanced regression analysis.</br>
+                  ▪ Applied creative feature engineering skills, enhancing predictive models for housing prices using stacked Regression and
+                  ensemble methods. Submission ranked 229 out of 4833 on Kaggle leaderboard.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Machine Learning Algorithms, Jupyter Notebook</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Prudhvi-Chekka/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-text.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Text to SQL Generator</h4>
+			      <p>Developed a Text to SQL chatbot using LLM and leveraged Prompt Engineering, Chain of Thought, and Zero-shot Learning techniques.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Langchain, LLM, streamlit</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Prudhvi-Chekka/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-airport.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Airport Management System</h4>
+			      <p>▪ Strategically designed the database by comparing UML Class Diagrams, 3NF/BCNF Normalization techniques.
+                  <br> ▪ Developed interactive web-based application to view the data with the help of pagination to display huge data. </br>
+                  </p>
+               <span class="categories"><i class="fa fa-tag"></i>Javascript, Nodejs, HTML, CSS</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Prudhvi-Chekka/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-shared-file.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Shared File Transfer Network</h4>
+			      <p>▪ Developed a robust file transfer application with multi-threading capabilities, allowing concurrent file uploads and downloads by multiple clients.
+                  <br>▪ Facilitated collaborative file sharing within temporary rooms, where clients could exchange files and messages, ensuring data privacy and access control. </br></p>
+               <span class="categories"><i class="fa fa-tag"></i>FTP, Computer Networks, TCP, UDP, multi-threading</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Prudhvi-Chekka/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-RMI.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Distributed String Array with Concurrency Control Using Java RMI</h4>
+			      <p>▪ Acquired practical skills in developing and deploying distributed systems, demonstrating proficiency in remote object communication and client-server interactions.
+                  <br>▪ Designed and implemented scalable solutions capable of managing simultaneous client requests, ensuring data consistency and reliability in distributed applications.</br>
+
+                  ▪ Acquired good knowledge on Java RMI technology while implementing distributed string array with robust concurrency control, showcasing expertise in handling complex synchronization challenges.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Java, Java RMI, Distributed Systems, Concurrency Control</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Prudhvi-Chekka/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-scalation.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>ScalaTion Project</h4>
+			      <p>▪ Actively contributed to the development of Regression Trees to facilitate optimal data splits.
+                  <br> ▪ To enhance the versatility of Random Forests, I introduced a novel feature bagging approach. Empowering users with external control over the max_features parameter facilitated engagement in feature bagging. </br>
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Scala, Machine Learning, Regression Trees, Random Forest, Gradient Boosting</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Prudhvi-Chekka/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Prudhvi Arun Chekka<br>
+						   105 College Station Rd <br>
+						   Athens, GA 30605 US<br>
+						   <span>(720) 225-7386</span>
+					   </p>
+
+				   </div>
+                  <!-- <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  </p> -->
+            </div>
+
+         </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://github.com/Prudhvi-Chekka"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://linkedin.com/in/prudhvi-chekka"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="mailto:prudhviarun.ch2@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2024 Prudhvi</li>
+               <!-- <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>    -->
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End ---->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
+
 </html>
